@@ -100,3 +100,4 @@ class TestTC03FooterTest():
     self.driver.find_element(By.CSS_SELECTOR, ".css-hyb7bs:nth-child(1) path").click()
     time.sleep(5)
   
+#coba
