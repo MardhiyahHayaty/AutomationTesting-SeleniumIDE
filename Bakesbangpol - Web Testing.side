@@ -2310,6 +2310,706 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "a2b85229-9c3e-4ea2-b6d7-94a8744a8107",
+    "name": "TC_06_PengajuanSuratMagangGagal",
+    "commands": [{
+      "id": "125a8596-7446-4f30-bf9d-b2d7e4dc4ac2",
+      "comment": "",
+      "command": "open",
+      "target": "https://pelayanan.kesbangpol.bandung.go.id/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "883e1c26-ac3f-442d-92ef-6f8105ece075",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9ce1414-e562-4b3f-ac68-6148dc46685e",
+      "comment": "",
+      "command": "click",
+      "target": "id=popover-trigger-:r4:",
+      "targets": [
+        ["id=popover-trigger-:r4:", "id"],
+        ["linkText=Pelayanan", "linkText"],
+        ["css=#popover-trigger-\\3Ar4\\3A", "css:finder"],
+        ["xpath=//a[contains(text(),'Pelayanan')]", "xpath:link"],
+        ["xpath=//a[@id='popover-trigger-:r4:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pelayanan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfaa9694-a7aa-4636-a58f-0d963e0b9fe0",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) .chakra-text",
+      "targets": [
+        ["css=a:nth-child(3) .chakra-text", "css:finder"],
+        ["xpath=//section[@id='popover-content-:r4:']/div/a[3]/div/div/p", "xpath:idRelative"],
+        ["xpath=//a[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'PKL / Magang / KKN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed7e4484-9419-4534-b8ab-b2332dd8af03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-ujhtzo",
+      "targets": [
+        ["css=.css-ujhtzo", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03ebb007-5e14-489c-b2cf-26578682c9f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,401.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "248bedb5-e693-4fef-bf3f-828dfca01add",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-16t6c2g",
+      "targets": [
+        ["css=.css-16t6c2g", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20a5cad2-1c2e-49ba-8d14-ffeda61790e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=nama",
+      "targets": [
+        ["id=nama", "id"],
+        ["name=nama", "name"],
+        ["css=#nama", "css:finder"],
+        ["xpath=//input[@id='nama']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05db9750-a605-45c5-a8b7-21592c33509c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nama",
+      "targets": [
+        ["id=nama", "id"],
+        ["name=nama", "name"],
+        ["css=#nama", "css:finder"],
+        ["xpath=//input[@id='nama']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "SUTARNO, S.S.T., M.T."
+    }, {
+      "id": "2d89b461-31f1-4389-9e91-533fa6174744",
+      "comment": "",
+      "command": "click",
+      "target": "id=alamat",
+      "targets": [
+        ["id=alamat", "id"],
+        ["name=alamat", "name"],
+        ["css=#alamat", "css:finder"],
+        ["xpath=//input[@id='alamat']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa85468d-4c65-4cd1-9d4e-051e540b3f17",
+      "comment": "",
+      "command": "type",
+      "target": "id=alamat",
+      "targets": [
+        ["id=alamat", "id"],
+        ["name=alamat", "name"],
+        ["css=#alamat", "css:finder"],
+        ["xpath=//input[@id='alamat']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Jl. Bandara Manasaja No. 01 RT. 002/003, Kel. Rumbai, Kec. Surabaya Kota Bandung"
+    }, {
+      "id": "9a2b4ff3-02a3-405c-8ec7-86e60b7e003f",
+      "comment": "",
+      "command": "click",
+      "target": "id=jenis_no_identitas",
+      "targets": [
+        ["id=jenis_no_identitas", "id"],
+        ["name=jenis_no_identitas", "name"],
+        ["css=#jenis_no_identitas", "css:finder"],
+        ["xpath=//select[@id='jenis_no_identitas']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6db66e3f-a516-4229-9ebc-f66c24563be0",
+      "comment": "",
+      "command": "select",
+      "target": "id=jenis_no_identitas",
+      "targets": [],
+      "value": "label=NPM"
+    }, {
+      "id": "b3670725-13c2-4193-be13-c05b4f60c313",
+      "comment": "",
+      "command": "click",
+      "target": "id=no_identitas",
+      "targets": [
+        ["id=no_identitas", "id"],
+        ["name=no_identitas", "name"],
+        ["css=#no_identitas", "css:finder"],
+        ["xpath=//input[@id='no_identitas']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbc151a5-8a91-4816-b671-126344c39fe1",
+      "comment": "",
+      "command": "type",
+      "target": "id=no_identitas",
+      "targets": [
+        ["id=no_identitas", "id"],
+        ["name=no_identitas", "name"],
+        ["css=#no_identitas", "css:finder"],
+        ["xpath=//input[@id='no_identitas']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "14765677889099"
+    }, {
+      "id": "99898c1f-6e17-4c09-bffb-b2ec427e00cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=anggota",
+      "targets": [
+        ["id=anggota", "id"],
+        ["name=anggota", "name"],
+        ["css=#anggota", "css:finder"],
+        ["xpath=//input[@id='anggota']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a9d2e9-b149-41a4-8550-700d021801a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=anggota",
+      "targets": [
+        ["id=anggota", "id"],
+        ["name=anggota", "name"],
+        ["css=#anggota", "css:finder"],
+        ["xpath=//input[@id='anggota']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Budiantono, Dianamanik"
+    }, {
+      "id": "3992d37b-c868-47b6-8c12-823c5e88ec08",
+      "comment": "",
+      "command": "click",
+      "target": "id=jabatan",
+      "targets": [
+        ["id=jabatan", "id"],
+        ["name=jabatan", "name"],
+        ["css=#jabatan", "css:finder"],
+        ["xpath=//select[@id='jabatan']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[6]/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd5597d-2362-44f1-a7a0-0272b16a21ab",
+      "comment": "",
+      "command": "select",
+      "target": "id=jabatan",
+      "targets": [],
+      "value": "label=Ketua Kelompok"
+    }, {
+      "id": "6108437a-fc06-4fdb-b86a-6da7c2d31a71",
+      "comment": "",
+      "command": "click",
+      "target": "id=nama_kampus",
+      "targets": [
+        ["id=nama_kampus", "id"],
+        ["name=nama_kampus", "name"],
+        ["css=#nama_kampus", "css:finder"],
+        ["xpath=//input[@id='nama_kampus']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92446eb9-7b67-4c72-a328-6a78679a3360",
+      "comment": "",
+      "command": "type",
+      "target": "id=nama_kampus",
+      "targets": [
+        ["id=nama_kampus", "id"],
+        ["name=nama_kampus", "name"],
+        ["css=#nama_kampus", "css:finder"],
+        ["xpath=//input[@id='nama_kampus']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "Universitas Bandung"
+    }, {
+      "id": "d83193e6-5f88-41e3-a01d-ffaa5d699fde",
+      "comment": "",
+      "command": "click",
+      "target": "id=no_surat_kampus",
+      "targets": [
+        ["id=no_surat_kampus", "id"],
+        ["name=no_surat_kampus", "name"],
+        ["css=#no_surat_kampus", "css:finder"],
+        ["xpath=//input[@id='no_surat_kampus']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23fee6d0-4505-452b-aaba-636fc1a6760e",
+      "comment": "",
+      "command": "type",
+      "target": "id=no_surat_kampus",
+      "targets": [
+        ["id=no_surat_kampus", "id"],
+        ["name=no_surat_kampus", "name"],
+        ["css=#no_surat_kampus", "css:finder"],
+        ["xpath=//input[@id='no_surat_kampus']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "0018999"
+    }, {
+      "id": "a67e148f-2d04-4e2b-9035-eac420016537",
+      "comment": "",
+      "command": "click",
+      "target": "id=tanggal_surat_kampus",
+      "targets": [
+        ["id=tanggal_surat_kampus", "id"],
+        ["name=tanggal_surat_kampus", "name"],
+        ["css=#tanggal_surat_kampus", "css:finder"],
+        ["xpath=//input[@id='tanggal_surat_kampus']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b55268e-be68-47df-ac82-08e8fb16ceee",
+      "comment": "",
+      "command": "type",
+      "target": "id=tanggal_surat_kampus",
+      "targets": [
+        ["id=tanggal_surat_kampus", "id"],
+        ["name=tanggal_surat_kampus", "name"],
+        ["css=#tanggal_surat_kampus", "css:finder"],
+        ["xpath=//input[@id='tanggal_surat_kampus']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "2023-09-12"
+    }, {
+      "id": "34c9f93a-7155-4068-b808-ec8df8b72a43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chakra-form-control:nth-child(22) > #dataDiri-label",
+      "targets": [
+        ["css=.chakra-form-control:nth-child(22) > #dataDiri-label", "css:finder"],
+        ["xpath=(//label[@id='dataDiri-label'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[10]/label", "xpath:idRelative"],
+        ["xpath=//div[10]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'No Whatsapp*')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "059cca96-35b7-411f-a48d-76d2a4605153",
+      "comment": "",
+      "command": "click",
+      "target": "id=tanggal_mulai",
+      "targets": [
+        ["id=tanggal_mulai", "id"],
+        ["name=tanggal_mulai", "name"],
+        ["css=#tanggal_mulai", "css:finder"],
+        ["xpath=//input[@id='tanggal_mulai']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[14]/input", "xpath:idRelative"],
+        ["xpath=//div[14]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db77b5f3-a2b5-4517-8191-1339a3e53b2e",
+      "comment": "",
+      "command": "type",
+      "target": "id=tanggal_mulai",
+      "targets": [
+        ["id=tanggal_mulai", "id"],
+        ["name=tanggal_mulai", "name"],
+        ["css=#tanggal_mulai", "css:finder"],
+        ["xpath=//input[@id='tanggal_mulai']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[14]/input", "xpath:idRelative"],
+        ["xpath=//div[14]/input", "xpath:position"]
+      ],
+      "value": "2023-09-12"
+    }, {
+      "id": "7023c4b5-1c75-4567-a9fe-e51379e0781d",
+      "comment": "",
+      "command": "click",
+      "target": "id=tanggal_akhir",
+      "targets": [
+        ["id=tanggal_akhir", "id"],
+        ["name=tanggal_akhir", "name"],
+        ["css=#tanggal_akhir", "css:finder"],
+        ["xpath=//input[@id='tanggal_akhir']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[15]/input", "xpath:idRelative"],
+        ["xpath=//div[15]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37b8fa50-057a-44c2-85e1-cb9da9594443",
+      "comment": "",
+      "command": "type",
+      "target": "id=tanggal_akhir",
+      "targets": [
+        ["id=tanggal_akhir", "id"],
+        ["name=tanggal_akhir", "name"],
+        ["css=#tanggal_akhir", "css:finder"],
+        ["xpath=//input[@id='tanggal_akhir']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[15]/input", "xpath:idRelative"],
+        ["xpath=//div[15]/input", "xpath:position"]
+      ],
+      "value": "2023-09-12"
+    }, {
+      "id": "16581456-f970-4b4a-b35d-20f17dcc15f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=tombolKirim",
+      "targets": [
+        ["id=tombolKirim", "id"],
+        ["css=#tombolKirim", "css:finder"],
+        ["xpath=//button[@id='tombolKirim']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[17]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f5fcb4e-80e3-4715-a9ee-b31b1957dc4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=no_hp",
+      "targets": [
+        ["id=no_hp", "id"],
+        ["name=no_hp", "name"],
+        ["css=#no_hp", "css:finder"],
+        ["xpath=//input[@id='no_hp']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "358ebce0-3886-4d40-aa72-3f24611f2093",
+      "comment": "",
+      "command": "type",
+      "target": "id=no_hp",
+      "targets": [
+        ["id=no_hp", "id"],
+        ["name=no_hp", "name"],
+        ["css=#no_hp", "css:finder"],
+        ["xpath=//input[@id='no_hp']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "081388789099"
+    }, {
+      "id": "8803dbd5-c51e-4a06-bdb9-640f34034ea1",
+      "comment": "",
+      "command": "click",
+      "target": "id=field-:rt:-label",
+      "targets": [
+        ["id=field-:rt:-label", "id"],
+        ["css=#field-\\3Art\\3A-label", "css:finder"],
+        ["xpath=//label[@id='field-:rt:-label']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af9bb079-e530-4fed-9aa1-c981d6bbaf76",
+      "comment": "",
+      "command": "click",
+      "target": "id=tombolKirim",
+      "targets": [
+        ["id=tombolKirim", "id"],
+        ["css=#tombolKirim", "css:finder"],
+        ["xpath=//button[@id='tombolKirim']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[17]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c4b072d-393e-4ae0-a29e-3f1005b7138b",
+      "comment": "",
+      "command": "click",
+      "target": "id=attach_ktp",
+      "targets": [
+        ["id=attach_ktp", "id"],
+        ["css=#attach_ktp", "css:finder"],
+        ["xpath=//input[@id='attach_ktp']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a37d851-580c-45a6-a1fa-7a4b430ff14f",
+      "comment": "",
+      "command": "type",
+      "target": "id=attach_ktp",
+      "targets": [
+        ["id=attach_ktp", "id"],
+        ["css=#attach_ktp", "css:finder"],
+        ["xpath=//input[@id='attach_ktp']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\ktpdummy.png"
+    }, {
+      "id": "aeb25105-0ca2-4ca9-81e2-076029482527",
+      "comment": "",
+      "command": "click",
+      "target": "id=tombolKirim",
+      "targets": [
+        ["id=tombolKirim", "id"],
+        ["css=#tombolKirim", "css:finder"],
+        ["xpath=//button[@id='tombolKirim']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[17]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4211387c-f1bb-4520-94d8-0585c8532e98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chakra-stack:nth-child(1) > .chakra-form-control:nth-child(2)",
+      "targets": [
+        ["css=.chakra-stack:nth-child(1) > .chakra-form-control:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[16]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3013e102-9380-4ab5-93be-ff55332e8c37",
+      "comment": "",
+      "command": "click",
+      "target": "id=attach_ktm",
+      "targets": [
+        ["id=attach_ktm", "id"],
+        ["css=#attach_ktm", "css:finder"],
+        ["xpath=//input[@id='attach_ktm']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "127e7d3e-e585-408a-83ef-de0afe3d5170",
+      "comment": "",
+      "command": "type",
+      "target": "id=attach_ktm",
+      "targets": [
+        ["id=attach_ktm", "id"],
+        ["css=#attach_ktm", "css:finder"],
+        ["xpath=//input[@id='attach_ktm']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\ktmdummy.jpeg"
+    }, {
+      "id": "e62f8b92-eaf5-44c1-acb6-56bd2c84a3b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=tombolKirim",
+      "targets": [
+        ["id=tombolKirim", "id"],
+        ["css=#tombolKirim", "css:finder"],
+        ["xpath=//button[@id='tombolKirim']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[17]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e5c7a7d-12c6-4cc8-8f0a-dbf767057079",
+      "comment": "",
+      "command": "click",
+      "target": "id=attach_pasFoto",
+      "targets": [
+        ["id=attach_pasFoto", "id"],
+        ["css=#attach_pasFoto", "css:finder"],
+        ["xpath=//input[@id='attach_pasFoto']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1073d57-86a4-4e5f-bed0-442bf1e20aad",
+      "comment": "",
+      "command": "type",
+      "target": "id=attach_pasFoto",
+      "targets": [
+        ["id=attach_pasFoto", "id"],
+        ["css=#attach_pasFoto", "css:finder"],
+        ["xpath=//input[@id='attach_pasFoto']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\pasfotodummy.jpeg"
+    }, {
+      "id": "014f7467-6f56-4f68-8539-4ed48dcab16c",
+      "comment": "",
+      "command": "click",
+      "target": "id=tombolKirim",
+      "targets": [
+        ["id=tombolKirim", "id"],
+        ["css=#tombolKirim", "css:finder"],
+        ["xpath=//button[@id='tombolKirim']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[17]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "970d787b-49a7-4ccc-b341-b4139d0a4700",
+      "comment": "",
+      "command": "click",
+      "target": "id=attach_suratKampus",
+      "targets": [
+        ["id=attach_suratKampus", "id"],
+        ["css=#attach_suratKampus", "css:finder"],
+        ["xpath=//input[@id='attach_suratKampus']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8e33ff6-73cc-41ae-88cb-7202ec559bd5",
+      "comment": "",
+      "command": "type",
+      "target": "id=attach_suratKampus",
+      "targets": [
+        ["id=attach_suratKampus", "id"],
+        ["css=#attach_suratKampus", "css:finder"],
+        ["xpath=//input[@id='attach_suratKampus']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\suratkampus.jpg"
+    }, {
+      "id": "027aa9a4-e66c-47aa-95c8-b9b5fee2d154",
+      "comment": "",
+      "command": "click",
+      "target": "id=tombolKirim",
+      "targets": [
+        ["id=tombolKirim", "id"],
+        ["css=#tombolKirim", "css:finder"],
+        ["xpath=//button[@id='tombolKirim']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[17]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87551510-7a31-4146-a045-bc4fbb50e9b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=attach_vaksin",
+      "targets": [
+        ["id=attach_vaksin", "id"],
+        ["css=#attach_vaksin", "css:finder"],
+        ["xpath=//input[@id='attach_vaksin']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be5cc18-671b-4c8f-9da8-dfe6d62afa9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=attach_vaksin",
+      "targets": [
+        ["id=attach_vaksin", "id"],
+        ["css=#attach_vaksin", "css:finder"],
+        ["xpath=//input[@id='attach_vaksin']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\vaksindummy.jpg"
+    }, {
+      "id": "c60638a5-fd22-494d-ae86-dceae747930d",
+      "comment": "",
+      "command": "click",
+      "target": "id=tombolKirim",
+      "targets": [
+        ["id=tombolKirim", "id"],
+        ["css=#tombolKirim", "css:finder"],
+        ["xpath=//button[@id='tombolKirim']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[17]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kirim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5f2f92f-5562-49be-9ff1-ce4d51d76d8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=attach_suratDinas",
+      "targets": [
+        ["id=attach_suratDinas", "id"],
+        ["css=#attach_suratDinas", "css:finder"],
+        ["xpath=//input[@id='attach_suratDinas']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b4d9df4-79a6-4670-a700-fe686ec5477f",
+      "comment": "",
+      "command": "type",
+      "target": "id=attach_suratDinas",
+      "targets": [
+        ["id=attach_suratDinas", "id"],
+        ["css=#attach_suratDinas", "css:finder"],
+        ["xpath=//input[@id='attach_suratDinas']", "xpath:attributes"],
+        ["xpath=//form[@id='uploadForm']/div[16]/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\UAS METOPEL.pdf"
+    }, {
+      "id": "4cbda024-f75a-4ce2-83d1-a3d18fda8955",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-6gshi5",
+      "targets": [
+        ["css=.css-6gshi5", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "b635c105-35a6-4ffe-bdcf-3f966bd6ef74",
